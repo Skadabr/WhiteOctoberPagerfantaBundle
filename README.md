@@ -42,6 +42,13 @@ Add the WhiteOctoberPagerfantaBundle to your application kernel:
         );
     }
 
+That's would also be good to set these options to true:
+
+    // app/config/config.yml
+    white_october_pagerfanta:
+        convert_not_valid_max_per_page_to_not_found: true
+        convert_not_valid_current_page_to_not_found: true
+
 Rendering pagerfantas
 ---------------------
 

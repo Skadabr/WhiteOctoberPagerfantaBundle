@@ -42,7 +42,8 @@ Add the WhiteOctoberPagerfantaBundle to your application kernel:
         );
     }
 
-That's would also be good to set these options to true:
+You can set the parameter to show 404 exception when requested page is not valid.
+It is set to "false" by defauly to provide BC (before it was 500).
 
     // app/config/config.yml
     white_october_pagerfanta:
